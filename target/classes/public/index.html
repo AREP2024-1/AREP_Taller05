@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taller-05</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <h3>Funcion Seno:</h3>
+        <form>
+            <label for="seno">Numero: </label><br>
+            <input type="text" id="seno" name="name" value="180"><br><br>
+            <input type="button" value="Calcular" onclick="calcularSeno()">
+        </form> 
+        <div id="senoResult"></div>
+
+        <h3>Funcion Coseno:</h3>
+        <form>
+            <label for="coseno">Numero: </label><br>
+            <input type="text" id="coseno" name="name" value="180"><br><br>
+            <input type="button" value="Calcular" onclick="calcularCoseno()">
+        </form>
+        <div id="cosenoResult"></div>
+
+        <h3>Es palindromo?</h3>
+        <form>
+            <label for="palindromo">Cadena: </label><br>
+            <input type="text" id="palindromo" name="name" value="reconocer"><br><br>
+            <input type="button" value="Validar" onclick="esPalindromo()">
+        </form>
+        <div id="palindromoResult"></div>
+
+        <h3>Magnitud del vector:</h3>
+        <form>
+            <label for="xPosition">x: </label><br>
+            <input type="text" id="xPosition" name="name" value="8"><br>
+            <label for="yPosition">y: </label><br>
+            <input type="text" id="yPosition" name="name" value="55"><br><br>
+            <input type="button" value="Calcular" onclick="calcularMagnitud()">
+        </form>
+        <div id="magnitudResult"></div>
+        
+    </body>
+</html>
